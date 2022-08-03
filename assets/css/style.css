@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    font-size: 100%;
+    background-color: #0a192f;
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #1f3c68;
+    height: 120px;
+    margin-bottom: 88px;
+}
+
+.nav-cabecalho{
+    display: flex;
+    gap: 35px;
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.logo-cabecalho{
+    margin-top: 20px;
+}
+
+.conteudo-nav{
+    
+    color: #ccc;
+    transition: all 0.4s linear;
+    font-weight: 600px;
+}
+
+.conteudo-nav:hover{
+    color: rgb(100, 255, 218);
+}
+
+.conteudo-principal{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+}
+.text-main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 64px;
+   
+}
+.minha-imagem{
+    border-radius: 50%;
+    border: 3px solid rgb(100, 255, 218);
+    margin-right: 100px;
+    margin-top: 0px;
+}
+
+.texto-um{
+    color: rgb(100, 255, 218);
+    font-size: 36px;
+}
+.texto-main{
+    font-family: 'Sarala', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: 800;
+}
+.sub-texto{
+    color: #ccc;
+    font-size: 30px;
+}
+
+.sobre-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.sobre{
+    padding-top: 50px;
+    color: rgb(100, 255, 218);
+    border-top: 2px solid rgb(100, 255, 218);
+}
+
+.text-sobre{
+    width: 600px;
+    text-align: left;
+    color: #ccc;
+    font-family: 'Sarala', sans-serif;
+}
+
+footer{
+    margin-top: 50px;
+    border-top: 2px solid #1f3c68;
+    font-size:  'Sarala', sans-serif;
+    display: block;   
+    height: 75px;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 30px;
+    color: #ccc;
+}
